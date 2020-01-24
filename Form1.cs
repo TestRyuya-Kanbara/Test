@@ -27,6 +27,7 @@ namespace GitHub学習用
 
             try
             {
+                //選択した演算子により演算処理分岐
                 switch(cmbEnzanshi.Text)
                 {
                     case "+":

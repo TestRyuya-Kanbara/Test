@@ -52,7 +52,7 @@ namespace GitHub学習用
 
                     case "/":
 
-                        //エラー処理追加
+                        //エラー処理追加 2020/01/24
                         if(Value2== 0)
                         {
                             MessageBox.Show("0で除算する事はできません。", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);

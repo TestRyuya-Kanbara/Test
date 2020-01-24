@@ -5,9 +5,9 @@ using sd_lib = System_ds_CommonLibraryCS.libCommon_Common;
 
 namespace GitHub学習用
 {
-    public partial class Form1 : Form
+    public partial class F1000 : Form
     {
-        public Form1()
+        public F1000()
         {
             InitializeComponent();
         }

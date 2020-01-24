@@ -126,14 +126,14 @@
             // 
             // btnEnd
             // 
-            this.btnEnd.BackColor = System.Drawing.Color.Yellow;
+            this.btnEnd.BackColor = System.Drawing.SystemColors.Control;
             this.btnEnd.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.btnEnd.Location = new System.Drawing.Point(397, 119);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(103, 29);
             this.btnEnd.TabIndex = 8;
             this.btnEnd.Text = "システム終了";
-            this.btnEnd.UseVisualStyleBackColor = false;
+            this.btnEnd.UseVisualStyleBackColor = true;
             this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
             // Form1

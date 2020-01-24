@@ -1,6 +1,6 @@
 ﻿namespace GitHub学習用
 {
-    partial class Form1
+    partial class F1000
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -136,7 +136,7 @@
             this.btnEnd.UseVisualStyleBackColor = true;
             this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
-            // Form1
+            // F1000
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,9 +152,9 @@
             this.Controls.Add(this.cmbEnzanshi);
             this.Controls.Add(this.txtValue1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "Form1";
+            this.Name = "F1000";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "F1000";
             this.ResumeLayout(false);
             this.PerformLayout();
 

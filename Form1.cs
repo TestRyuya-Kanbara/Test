@@ -52,8 +52,11 @@ namespace GitHub学習用
 
                     case "/":
 
-                        //test
-
+                        //エラー処理追加
+                        if(Value2== 0)
+                        {
+                            MessageBox.Show("0で除算する事はできません。", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
 
                         //割算
                         txtEnzan1.Text = (Value1 / Value2).ToString();

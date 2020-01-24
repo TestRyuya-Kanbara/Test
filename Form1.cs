@@ -56,6 +56,7 @@ namespace GitHub学習用
                         if(Value2== 0)
                         {
                             MessageBox.Show("0で除算する事はできません。", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
                         }
 
                         //割算
